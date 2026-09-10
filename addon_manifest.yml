@@ -1,0 +1,6 @@
+AddonLib:
+    kind: clone
+    version: "2.1.0"
+    tag: "main"
+    url: https://github.com/brohd11/godot-addon-lib.git
+    path: addons/addon_lib/brohd

@@ -1,0 +1,10 @@
+[configuration]
+
+entry_symbol = "string_map_native_init"
+compatibility_minimum = "4.5"
+reloadable = true
+
+[libraries]
+
+macos.debug = "res://string_map_native/bin/libstringmapnative.macos.template_debug.framework"
+macos.release = "res://string_map_native/bin/libstringmapnative.macos.template_release.framework"
