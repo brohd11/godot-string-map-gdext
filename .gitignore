@@ -2,4 +2,6 @@
 .godot/
 /android/
 
+.DS_Store
+
 /addons/addon_lib/brohd/
