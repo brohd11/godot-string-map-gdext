@@ -1,7 +1,22 @@
-# Godot 4+ specific ignores
+# Compiled output
+bin/
+*.os
+
+# Packaging output
+build/
+dist/
+
+# SCons cache
+.sconsign.dblite
+
+# Python
+*.pyc
+__pycache__/
+
+# Godot-generated project state
 .godot/
 /android/
-
-.DS_Store
-
 /addons/addon_lib/brohd/
+
+# macOS
+.DS_Store

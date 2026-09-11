@@ -1,0 +1,16 @@
+[configuration]
+
+entry_symbol = "string_map_native_init"
+compatibility_minimum = "4.5"
+reloadable = true
+
+[libraries]
+
+macos.debug = "res://addons/addon_lib/string_map/bin/libstringmapnative.macos.template_debug.universal.dylib"
+macos.release = "res://addons/addon_lib/string_map/bin/libstringmapnative.macos.template_release.universal.dylib"
+
+linux.debug.x86_64 = "res://addons/addon_lib/string_map/bin/libstringmapnative.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/addon_lib/string_map/bin/libstringmapnative.linux.template_release.x86_64.so"
+
+windows.debug.x86_64 = "res://addons/addon_lib/string_map/bin/libstringmapnative.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/addon_lib/string_map/bin/libstringmapnative.windows.template_release.x86_64.dll"

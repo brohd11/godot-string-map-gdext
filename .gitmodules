@@ -1,5 +1,5 @@
-[submodule "string_map_native/godot-cpp"]
-	path = string_map_native/godot-cpp
+[submodule "godot-cpp"]
+	path = godot-cpp
 	url = https://github.com/godotengine/godot-cpp.git
 	branch = 4.5
 [submodule "sh-templates"]
