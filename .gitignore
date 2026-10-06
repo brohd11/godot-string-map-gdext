@@ -16,7 +16,7 @@ __pycache__/
 # Godot-generated project state
 .godot/
 /android/
-/addons/addon_lib/brohd/
+/addons/_lib/brohd/
 
 # macOS
 .DS_Store
